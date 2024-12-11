@@ -28,14 +28,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-             title="Short-URL"
-             ghLink="https://github.com/satyampathak12/Short-URL"
-             
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
             title="List-To-Do"
              ghLink="https://github.com/satyampathak12/List-To-Do"
             />
