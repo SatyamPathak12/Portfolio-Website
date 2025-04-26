@@ -31,7 +31,8 @@ function Home2() {
 
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+          <h1 style={{ color: "#C770F0" }}>FIND ME ON</h1>
+
             <p>Let's connect and build something awesome together!</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
