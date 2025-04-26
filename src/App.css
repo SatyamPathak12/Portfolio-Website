@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.home-about-description {
+  text-align: center; /* Center align heading and paragraph */
+  margin-bottom: 20px;
+}
+
+.home-about-body {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  line-height: 1.7;
+  color: #cfcfcf;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
