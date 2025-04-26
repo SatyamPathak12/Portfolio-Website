@@ -2,6 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import listtodo from "../../Assets/listtodo.png";
+import weatherapp from "../../Assets/weatherapp.png.jpg";
+import blogapp from "../../Assets/blogapp.png.jpg";
+
+
 
 function Projects() {
   return (
@@ -9,7 +14,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple"> My Recent Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -17,26 +22,28 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={Blog-App}
-              // isBlog={false}
+              imgPath={blogapp}
               title="Blog-App"
-              // description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/satyampathak12/Blog-App-using-MERN"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://blog-app-using-mern-2.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
+            imgPath={listtodo}
             title="List-To-Do"
-             ghLink="https://github.com/satyampathak12/List-To-Do"
+             ghLink="https://github.com/SatyamPathak12/LimeTray-Assignment"
+            demoLink="https://lime-tray-assignment-xpiy-iyxkkrirn-satyam-pathaks-projects.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
+            imgPath={weatherapp}
              title="Weather-App"
              ghLink="https://github.com/satyampathak12/Weather-App"
+             demoLink="https://weather-app-zeta-olive-25.vercel.app/"
             />
           </Col>
         </Row>
