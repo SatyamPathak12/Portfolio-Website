@@ -50,3 +50,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.tech-icons {
+  font-size: 4em;
+  margin: 15px;
+  transition: color 0.3s ease;
+  color: white; /* default color */
+}
+
+.tech-icons:hover {
+  color: purple; /* on hover make it purple */
+}

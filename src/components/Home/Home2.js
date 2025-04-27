@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import myImg from "../../Assets/avatar.svg";
 
@@ -30,54 +30,46 @@ function Home2() {
         </Row>
 
         <Row>
-          <Col md={12} className="home-about-social">
-          <h1 style={{ color: "#C770F0" }}>FIND ME ON</h1>
+  <Col md={12} className="home-about-social">
+    <h1 style={{ color: "#C770F0" }}>FIND ME ON</h1>
+    <p>Let's connect and build something awesome together!</p>
+    <ul className="home-about-social-links">
+      <li className="social-icons">
+        <a
+          href="https://github.com/satyampathak12"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <AiFillGithub />
+        </a>
+      </li>
 
-            <p>Let's connect and build something awesome together!</p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/satyampathak12"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/satyampathak164"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/satyampathak12/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/beingspandit"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+      <li className="social-icons">
+        <a
+          href="https://www.linkedin.com/in/satyampathak12/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <FaLinkedinIn />
+        </a>
+      </li>
+
+      <li className="social-icons">
+        <a
+          href="mailto:satyampathak.dev@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <AiOutlineMail />
+        </a>
+      </li>
+
+    </ul>
+  </Col>
+</Row>
       </Container>
     </Container>
   );
